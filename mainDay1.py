@@ -1,3 +1,1 @@
-print("Hello World!")
-print("Test")
-print("Hello World!")
+print("Hello World!\nHello World!")
