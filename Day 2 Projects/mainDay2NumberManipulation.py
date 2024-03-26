@@ -8,3 +8,10 @@ height = 1.8
 isWinning = True
 
 print(f"your score is {score}, your height is {height}. You are Winning is {isWinning}")
+
+age = input()
+newAge = int(age)
+currentAge = int(newAge * 52)
+yearLast = int(90 * 52)
+remainWeeks = int(yearLast - currentAge)
+print(f"You have {remainWeeks} weeks left.")
