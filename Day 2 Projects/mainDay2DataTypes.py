@@ -8,7 +8,7 @@ print("123" + "456")
 #Underscores can act as commas to separate values
 123_456
 
-#float
+#float default for most operations
 3.141612
 
 #Boolean
