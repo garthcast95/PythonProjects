@@ -16,4 +16,14 @@ o = lowerNames.count('o')
 v = lowerNames.count('v')
 e = lowerNames.count('e')
 secondScore = l + o + v + e
-totalScore = int(firstScore) + int(secondScore)
+newScore = str(firstScore) + str(secondScore)
+totalScore = int(newScore)
+
+
+if totalScore < 10 and totalScore > 90:
+    print("Your score is " + str(totalScore) + ", you go together like coke and mentos.")
+elif totalScore > 40 and totalScore < 50:
+    print("Your score is " + str(totalScore) + ", you are alright together.")    
+else:
+    print("Your score is " + str(totalScore) + ".")
+
